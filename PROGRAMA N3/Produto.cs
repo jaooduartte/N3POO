@@ -39,7 +39,7 @@ namespace Floricultura
         {
             string info = "";
             info += "O produto ";
-            info += this.nome;
+            info += this.nome.ToUpper();
             info += " possui em estoque: ";
             info += this.saldo.ToString() +" ";
             return info;

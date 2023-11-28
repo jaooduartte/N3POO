@@ -32,7 +32,6 @@ class Program
         menuPrincipal.Add("0 - Sair                 ");
 
         tela.configurarTela();
-        Console.Write("SALVE");
 
         while (true)
         {
@@ -66,7 +65,7 @@ class Program
                 if (achou)
                 {
                     Console.SetCursorPosition(11, 8);
-                    Console.Write("Nome do produto      : " + bancoDados[x].Nome);
+                    Console.Write("Nome do produto      : " + bancoDados[x].Nome.ToUpper());
 
                     Console.SetCursorPosition(11, 9);
                     Console.Write("Entrada/Saída (E/S)  : ");
@@ -170,16 +169,16 @@ class Program
 
                 // Procura pelo cliente no vetor bancoDados
                 string resultado = "Cliente não encontrado!";
-                decimal entradas = 0;
-                decimal saidas = 0;
+                //decimal entradas = 0;
+                //decimal saidas = 0;
 
-                foreach (Clientes cta in bancoDadosCliente)
+                foreach (Clientes cta in bancoDadosClientes)
                 {
                     if (cta.Numero == con)
                     {
                         resultado = cta.consultarCliente();
-                        entradas = cta.TotalEntradas;
-                        saidas = cta.TotalSaidas;
+                        //entradas = cta.TotalEntradas;
+                        //saidas = cta.TotalSaidas;
                         break;
                     }
                 }
@@ -192,26 +191,26 @@ class Program
                 //Pergunta o numero do produto
                 Console.SetCursorPosition(8, 9);
                 string con = Clientes.proximoCliente.ToString();
-                Console.Write($"Nº Cliente             : {con}");
+                Console.Write($"Nº Cliente                 : {con}");
 
                 //Pergunta o nome do produto
                 Console.SetCursorPosition(8, 10);
                 Console.Write("Nome do cliente             : ");
                 string tit = Console.ReadLine();
 
-                Console.SetCursorPosition(8, 10);
+                Console.SetCursorPosition(8, 11);
                 Console.Write("Cidade                      : ");
-                string tit = Console.ReadLine();
+                string cid = Console.ReadLine();
 
                 //Solicita a confirmação para cadastro
-                Console.SetCursorPosition(8, 11);
+                Console.SetCursorPosition(8, 12);
                 Console.Write("Confirma novo cliente? (S/N): ");
                 string res = Console.ReadLine();
 
                 if (res.ToUpper() == "S")
                 {
-                    //Armazena novo produto no BANCO DE DADOS
-                    bancoDados.Add(new Produto(con, tit));
+                    //Armazena novo cliente no BANCO DE DADOS
+                    bancoDadosClientes.Add(new Clientes(con, tit, cid));
                 }
             }
         }
