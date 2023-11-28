@@ -19,7 +19,6 @@ class Program
         List<Clientes> clientes = new List<Clientes>();
         List<Pedido> pedidos = new List<Pedido>();
         Tela tela = new Tela();
-
         string opcao;
 
         // Adicione outras opções de menu conforme necessário
@@ -33,6 +32,7 @@ class Program
         menuPrincipal.Add("0 - Sair                 ");
 
         tela.configurarTela();
+        Console.Write("SALVE");
 
         while (true)
         {
