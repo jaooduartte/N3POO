@@ -13,3 +13,18 @@
 /Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Floricultura.pdb
 /Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Floricultura.genruntimeconfig.cache
 /Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/ref/Floricultura.dll
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.csproj.AssemblyReference.cache
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.AssemblyInfoInputs.cache
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.AssemblyInfo.cs
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.csproj.CoreCompileInputs.cache
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.dll
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/refint/Floricultura.dll
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.pdb
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/bin/Debug/net7.0/Floricultura
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/bin/Debug/net7.0/Floricultura.deps.json
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/bin/Debug/net7.0/Floricultura.runtimeconfig.json
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/bin/Debug/net7.0/Floricultura.dll
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/bin/Debug/net7.0/Floricultura.pdb
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/Floricultura.genruntimeconfig.cache
+/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/Debug/net7.0/ref/Floricultura.dll
