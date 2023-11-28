@@ -1,0 +1,45 @@
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Mercado
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Mercado.deps.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Mercado.runtimeconfig.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.csproj.AssemblyReference.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.AssemblyInfoInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.AssemblyInfo.cs
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.csproj.CoreCompileInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/refint/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Mercado.genruntimeconfig.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/ref/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/bin/Debug/net7.0/Mercado
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/bin/Debug/net7.0/Mercado.deps.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/bin/Debug/net7.0/Mercado.runtimeconfig.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/bin/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/bin/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.csproj.AssemblyReference.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.AssemblyInfoInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.AssemblyInfo.cs
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.csproj.CoreCompileInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/refint/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/Mercado.genruntimeconfig.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/TRABALHO N2/PONTO EXTRA - N2/obj/Debug/net7.0/ref/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/bin/Debug/net7.0/Mercado
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/bin/Debug/net7.0/Mercado.deps.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/bin/Debug/net7.0/Mercado.runtimeconfig.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/bin/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/bin/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.csproj.AssemblyReference.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.AssemblyInfoInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.AssemblyInfo.cs
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.csproj.CoreCompileInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/refint/Mercado.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/Mercado.genruntimeconfig.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/Debug/net7.0/ref/Mercado.dll

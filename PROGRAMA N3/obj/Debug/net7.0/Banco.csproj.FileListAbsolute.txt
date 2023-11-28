@@ -1,0 +1,15 @@
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Banco
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Banco.deps.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Banco.runtimeconfig.json
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Banco.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/bin/Debug/net7.0/Banco.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.csproj.AssemblyReference.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.AssemblyInfoInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.AssemblyInfo.cs
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.csproj.CoreCompileInputs.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/refint/Banco.dll
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.pdb
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/Banco.genruntimeconfig.cache
+/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Programação/Projetos/AULA 10/obj/Debug/net7.0/ref/Banco.dll
