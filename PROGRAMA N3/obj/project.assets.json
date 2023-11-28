@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/Floricultura.csproj",
+      "projectUniqueName": "/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/Floricultura.csproj",
       "projectName": "Floricultura",
-      "projectPath": "/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/Floricultura.csproj",
+      "projectPath": "/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/Floricultura.csproj",
       "packagesPath": "/Users/joaoduarte/.nuget/packages/",
-      "outputPath": "/Users/joaoduarte/Library/CloudStorage/OneDrive-CatólicaSC/FASE 2/Requisitos, modelagem e analise de dados/N3/PROGRAMA N3/obj/",
+      "outputPath": "/Users/joaoduarte/Projects/N3POO/PROGRAMA N3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/joaoduarte/.nuget/NuGet/NuGet.Config"

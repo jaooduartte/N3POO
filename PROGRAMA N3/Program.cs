@@ -19,6 +19,7 @@ class Program
         List<Clientes> clientes = new List<Clientes>();
         List<Pedido> pedidos = new List<Pedido>();
         Tela tela = new Tela();
+
         string opcao;
 
         // Adicione outras opções de menu conforme necessário
