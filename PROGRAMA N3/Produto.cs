@@ -13,18 +13,16 @@ namespace Floricultura
         // Propriedades
         private string numero;
         private string nome;
-        private string medida;
         private decimal saldo;
         private decimal totalEntradas;
         private decimal totalSaidas;
         private List<Movimento> movimentos= new List<Movimento>();
 
         // Método construtor
-        public Produto(string numero, string nome, string medida)
+        public Produto(string numero, string nome)
         {
             this.numero = numero;
             this.nome = nome;
-            this.medida = medida;
             this.saldo = 0;
             this.totalEntradas = 0;
             this.totalSaidas = 0;
@@ -35,7 +33,6 @@ namespace Floricultura
         // Getters e Setters
         public string Numero { get => numero; private set => numero = value; }
         public string Nome { get => nome; private set => nome = value; }
-        public string Medida { get => medida; private set => medida = value; }
 
         // Outros métodos
         public string consultarProduto()
