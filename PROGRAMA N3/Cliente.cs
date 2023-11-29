@@ -10,9 +10,8 @@
             private string numero;
             private string nome;
             private string cidade;
-            private List<Movimento> movimentos = new List<Movimento>();
 
-            // Método construtor
+        // Método construtor
             public Clientes(string numero, string nome, string cidade)
             {
                 this.numero = numero;
@@ -32,47 +31,10 @@
             {
                 string info = "";
                 info += "O cliente ";
-                info += this.nome;
+                info += this.nome.ToUpper();
                 info += " mora na cidade: ";
                 info += this.cidade.ToString() + " ";
                 return info;
             }
-
-            //public void fazerEntrada(decimal val, DateTime dat, string desc)
-            //{
-            //    // Guarda a movimento
-            //    //this.movimentos.Add(new Movimento(val, dat, desc, "C"));
-
-            //    //// Atualiza o saldo
-            //    //this.saldo += val;
-
-            //    //// Atualiza o total de entradas
-            //    //this.totalEntradas += val;
-            //}
-
-            //public void fazerSaida(decimal val, DateTime dat, string desc)
-            //{
-            //    if (val <= this.saldo)
-            //    {
-            //        // Guarda o movimento
-            //        this.movimentos.Add(new Movimento(val, dat, desc, "D"));
-
-            //        // Atualiza o saldo
-            //        this.saldo -= val;
-
-            //        // Atualiza o total de saídas
-            //        this.totalSaidas += val;
-            //    }
-            //}
-
-            //public decimal TotalEntradas
-            //{
-            //    get { return totalEntradas; }
-            //}
-
-            //public decimal TotalSaidas
-            //{
-            //    get { return totalSaidas; }
-            //}
-        }
+    }
 }

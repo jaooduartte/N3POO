@@ -169,19 +169,21 @@ class Program
 
                 // Procura pelo cliente no vetor bancoDados
                 string resultado = "Cliente não encontrado!";
-                //decimal entradas = 0;
-                //decimal saidas = 0;
 
                 foreach (Clientes cta in bancoDadosClientes)
                 {
                     if (cta.Numero == con)
                     {
                         resultado = cta.consultarCliente();
-                        //entradas = cta.TotalEntradas;
-                        //saidas = cta.TotalSaidas;
                         break;
                     }
                 }
+
+                Console.SetCursorPosition(11, 10);
+                Console.Write(resultado);
+                Console.SetCursorPosition(11, 12);
+                Console.ReadKey();
+
             }
 
             if (opcao == "5")
@@ -211,6 +213,42 @@ class Program
                 {
                     //Armazena novo cliente no BANCO DE DADOS
                     bancoDadosClientes.Add(new Clientes(con, tit, cid));
+                }
+            }
+
+            if (opcao == "6")
+            {
+                tela.montarMoldura(7, 7, 60, 13, "Novo pedido");
+
+                //Pergunta o numero do produto
+                Console.SetCursorPosition(8, 9);
+                string con = Pedido.proximoPedido.ToString();
+                Console.Write($"Pedido                     : {con}");
+
+                //Pergunta o nome do produto
+                Console.SetCursorPosition(8, 10);
+                Console.Write("Numero Cliente                   : ");
+                decimal numC = Console.Read();
+
+                Console.SetCursorPosition(8, 11);
+                Console.Write("Numero Produto                   : ");
+                decimal numP = Console.Read();
+
+                Console.SetCursorPosition(8, 12);
+                Console.Write("Quantidade do Pedido             : ");
+                decimal qtdP = Console.Read();
+
+                //Solicita a confirmação para cadastro
+                Console.SetCursorPosition(8, 11);
+                Console.Write("Confirma novo pedido? (S/N): ");
+                string res = Console.ReadLine();
+
+                if (res.ToUpper() == "S")
+                {
+                    //Armazena novo produto no BANCO DE DADOS
+                    pedidos.Add(new Pedido(con, numC, numP, qtdP));
+
+
                 }
             }
         }
