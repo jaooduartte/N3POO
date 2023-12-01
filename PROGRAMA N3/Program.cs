@@ -72,21 +72,17 @@ class Program
                     string tip = Console.ReadLine().ToUpper();
 
                     Console.SetCursorPosition(11, 10);
-                    Console.Write("Qual o motivo        : ");
-                    string mot = Console.ReadLine();
-
-                    Console.SetCursorPosition(11, 11);
                     Console.Write("Quantidade           : ");
                     decimal val = decimal.Parse(Console.ReadLine());
 
-                    Console.SetCursorPosition(11, 12);
+                    Console.SetCursorPosition(11, 11);
                     Console.Write("Confirma? (Y/N)      : ");
                     string resp = Console.ReadLine().ToUpper();
 
                     if (resp == "Y")
                     {
-                        if (tip == "S") bancoDados[x].fazerSaida(val, DateTime.Now, mot);
-                        if (tip == "E") bancoDados[x].fazerEntrada(val, DateTime.Now, mot);
+                        if (tip == "S") bancoDados[x].fazerSaida(val, DateTime.Now);
+                        if (tip == "E") bancoDados[x].fazerEntrada(val, DateTime.Now);
                     }
                 }
                 else
@@ -193,7 +189,7 @@ class Program
                 //Pergunta o numero do produto
                 Console.SetCursorPosition(8, 9);
                 string con = Clientes.proximoCliente.ToString();
-                Console.Write($"Nº Cliente                 : {con}");
+                Console.Write($"Nº Cliente                  : {con}");
 
                 //Pergunta o nome do produto
                 Console.SetCursorPosition(8, 10);
@@ -216,42 +212,168 @@ class Program
                 }
             }
 
+            //if (opcao == "6")
+            //{
+            //    tela.montarMoldura(7, 7, 60, 13, "Novo pedido");
+
+            //    //Pergunta o numero do produto
+            //    Console.SetCursorPosition(8, 9);
+            //    string con = Pedido.proximoPedido.ToString();
+            //    Console.Write($"Pedido                    : {con}");
+
+            //    //Pergunta o nome do produto
+            //    Console.SetCursorPosition(8, 10);
+            //    Console.Write("Numero do Cliente          : ");
+            //    decimal numC = Console.Read();
+
+            //    Console.SetCursorPosition(8, 11);
+            //    Console.Write("Numero do Produto          : ");
+            //    decimal numP = Console.Read();
+
+            //    Console.SetCursorPosition(8, 12);
+            //    Console.Write("Quantidade do Produto      : ");
+            //    decimal qtdP = Console.Read();
+
+            //    //Solicita a confirmação para cadastro
+            //    Console.SetCursorPosition(8, 13);
+            //    Console.Write("Confirma novo pedido? (S/N): ");
+            //    string res = Console.ReadLine();
+
+            //    Pedido novoPedido = new Pedido(con, numC, numP, qtdP);
+
+            //    pedidos.Add(novoPedido);
+
+            //    Produto produto = bancoDados.Find(p => p.Numero == numP.ToString());
+            //    if (produto != null)
+            //    {
+            //        produto.fazerSaida(qtdP, DateTime.Now, $"Pedido {numP}");
+            //    }
+            //    else
+            //    {
+            //        Console.SetCursorPosition(8, 13);
+            //        Console.Write("Produto não encontrado. Pressione uma tecla.");
+            //        Console.ReadKey(true);
+            //    }
+
+            //    if (res.ToUpper() == "S")
+            //    {
+            //        //Armazena novo produto no BANCO DE DADOS
+            //        pedidos.Add(new Pedido(con, numC, numP, qtdP));
+
+
+            //    }
             if (opcao == "6")
             {
-                tela.montarMoldura(7, 7, 60, 13, "Novo pedido");
+                tela.montarMoldura(7, 7, 75, 17, "Novo pedido");
 
-                //Pergunta o numero do produto
+                // Pergunta o número do pedido
                 Console.SetCursorPosition(8, 9);
                 string con = Pedido.proximoPedido.ToString();
-                Console.Write($"Pedido                     : {con}");
+                Console.Write($"Pedido                      : {con}");
 
-                //Pergunta o nome do produto
+                // Pergunta o número do cliente
                 Console.SetCursorPosition(8, 10);
-                Console.Write("Numero Cliente                   : ");
-                decimal numC = Console.Read();
+                Console.Write("Número do Cliente           : ");
+                string numC = Console.ReadLine();
 
-                Console.SetCursorPosition(8, 11);
-                Console.Write("Numero Produto                   : ");
-                decimal numP = Console.Read();
+                // Procura pelo cliente no vetor bancoDadosClientes
+                Clientes clienteEncontrado = bancoDadosClientes.Find(cliente => cliente.Numero == numC);
 
-                Console.SetCursorPosition(8, 12);
-                Console.Write("Quantidade do Pedido             : ");
-                decimal qtdP = Console.Read();
-
-                //Solicita a confirmação para cadastro
-                Console.SetCursorPosition(8, 11);
-                Console.Write("Confirma novo pedido? (S/N): ");
-                string res = Console.ReadLine();
-
-                if (res.ToUpper() == "S")
+                if (clienteEncontrado != null)
                 {
-                    //Armazena novo produto no BANCO DE DADOS
-                    pedidos.Add(new Pedido(con, numC, numP, qtdP));
+                    Console.SetCursorPosition(8, 11);
+                    Console.Write($"Nome do Cliente             : {clienteEncontrado.Nome.ToUpper()}");
 
+                    // Pergunta o número do produto
+                    Console.SetCursorPosition(8, 12);
+                    Console.Write("Endereço de Destino         : ");
+                    string enderecoDestino = Console.ReadLine();
 
+                    
+
+                    // Pergunta o número do produto
+                    Console.SetCursorPosition(8, 13);
+                    Console.Write("Número do Produto           : ");
+                    string numP = Console.ReadLine();
+
+                    // Procura pelo produto no vetor bancoDados
+                    Produto produtoEncontrado = bancoDados.Find(produto => produto.Numero == numP);
+
+                    if (produtoEncontrado != null)
+                    {
+                        Console.SetCursorPosition(8, 14);
+                        Console.Write($"{produtoEncontrado.consultarProduto()}");
+
+                        // Pergunta a quantidade do produto
+                        Console.SetCursorPosition(8, 15);
+                        Console.Write("Quantidade do Pedido        : ");
+                        decimal qtdP = decimal.Parse(Console.ReadLine());
+
+                        if (qtdP > produtoEncontrado.saldo)
+                        {
+                            Console.SetCursorPosition(8, 16);
+                            Console.Write("Não há quantidade suficiente em estoque. Pressione uma tecla.");
+                            Console.ReadKey(true);
+                            continue; // Volta para o início do loop e pede a quantidade novamente
+                        }
+
+                        // Confirmação para cadastro
+                        Console.SetCursorPosition(8, 16);
+                        Console.Write("Confirma novo pedido? (S/N) : ");
+                        string res = Console.ReadLine();
+
+                        
+
+                        if (res.ToUpper() == "S")
+                        {
+                            // Armazena novo produto no BANCO DE DADOS
+                            Pedido novoPedido = new Pedido(con, numC, numP, qtdP);
+                            pedidos.Add(novoPedido);
+                            novoPedido.enderecoDestino = enderecoDestino;
+                            produtoEncontrado.fazerSaida(qtdP, DateTime.Now);
+
+                            tela.montarMoldura(12, 12, 65, 21, "PEDIDO REALIZADO!");
+                            Console.SetCursorPosition(13, 15);
+                            Console.Write($"Pedido nº {novoPedido.NumeroPedido} realizado com sucesso!");
+                            Console.SetCursorPosition(13, 17);
+                            Console.Write($"Cliente: {clienteEncontrado.Nome.ToUpper()}");
+                            Console.SetCursorPosition(13, 18);
+                            Console.Write($"Endereço de Destino: {novoPedido.enderecoDestino.ToUpper()}");
+                            Console.SetCursorPosition(13, 19);
+                            Console.Write($"Produto: {produtoEncontrado.Nome.ToUpper()}");
+                            Console.SetCursorPosition(13, 20);
+                            Console.Write($"Quantidade: {novoPedido.QuantidadePedido}");
+                            Console.ReadKey(true);
+                        }
+                    }
+                    else
+                    {
+                        Console.SetCursorPosition(8, 13);
+                        Console.Write("Produto não encontrado. Pressione uma tecla.");
+                        Console.ReadKey(true);
+                    }
                 }
+                else
+                {
+                    Console.SetCursorPosition(8, 11);
+                    Console.Write("Cliente não encontrado. Pressione uma tecla.");
+                    Console.ReadKey(true);
+                }
+
+
+                // Imprime os pedidos realizados
+
+                //int linha = 22;
+
+                //foreach (Pedido pedido in pedidos)
+                //{
+                //    Console.SetCursorPosition(8, linha);
+                //    Console.Write(pedido.ConsultarPedido());
+                //    linha += 5; // Ajuste para a próxima linha
+                //}
             }
         }
+
         Console.Clear();
     }
 }
