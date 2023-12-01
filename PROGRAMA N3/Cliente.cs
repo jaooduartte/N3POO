@@ -33,7 +33,7 @@
                 info += "O cliente ";
                 info += this.nome.ToUpper();
                 info += " mora na cidade: ";
-                info += this.cidade.ToString() + " ";
+                info += this.cidade.ToString().ToUpper() + " ";
                 return info;
             }
     }

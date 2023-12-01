@@ -13,7 +13,7 @@ namespace Floricultura
         // Propriedades
         private string numero;
         private string nome;
-        private decimal saldo;
+        public decimal saldo;
         private decimal totalEntradas;
         private decimal totalSaidas;
         private List<Movimento> movimentos= new List<Movimento>();
@@ -45,10 +45,10 @@ namespace Floricultura
             return info;
         }
 
-        public void fazerEntrada(decimal val, DateTime dat, string desc)
+        public void fazerEntrada(decimal val, DateTime dat)
         {
             // Guarda a movimento
-            this.movimentos.Add(new Movimento(val, dat, desc, "C"));
+            this.movimentos.Add(new Movimento(val, dat, "C"));
 
             // Atualiza o saldo
             this.saldo += val;
@@ -57,12 +57,12 @@ namespace Floricultura
             this.totalEntradas += val;
         }
 
-        public void fazerSaida(decimal val, DateTime dat, string desc)
+        public void fazerSaida(decimal val, DateTime dat)
         {
             if (val <= this.saldo)
             {
                 // Guarda o movimento
-                this.movimentos.Add(new Movimento(val, dat, desc, "D"));
+                this.movimentos.Add(new Movimento(val, dat, "D"));
 
                 // Atualiza o saldo
                 this.saldo -= val;
